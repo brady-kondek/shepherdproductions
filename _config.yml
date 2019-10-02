@@ -1,11 +1,11 @@
 name: Jekyll Video
 description: Template for a video blog.
-url: 'https://jekyll-video.com'
-baseurl: '/jekyll-video'
+url: 'https://www.shedpherdproductions.ga'
+baseurl: 
 email: jekyll-video@example.com
-twitter: https://twitter.com/jekyll-video
-youtube: https://www.youtube.com/jekyll-video
-facebook: https://www.facebook.com/jekyll-video
+twitter: 
+youtube: 
+facebook: 
 google_analytics: 'UA-00000000-1'
 
 ################################################################
