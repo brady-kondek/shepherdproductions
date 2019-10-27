@@ -1,29 +1,78 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for video in site.videos %}
+    <title></title>
+    <description>Official website for Shepherd Productions.</description>
+    <link>https://shedpherdproductions.bradykondek.ga/</link>
+    <atom:link href="https://shedpherdproductions.bradykondek.ga/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 19 Oct 2019 12:42:09 +0000</pubDate>
+    <lastBuildDate>Sat, 19 Oct 2019 12:42:09 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
       <item>
-        <title>{{ video.title | xml_escape }}</title>
-        <description>{{ video.content | xml_escape }}</description>
+        <title>Washboarding</title>
+        <description>&lt;p&gt;Have you ever watched bees do this bizarre and fascinating behavior? What do you think they’re doing?&lt;/p&gt;
+</description>
         <pubDate>
-            {{ video.date | date: '%d %B %Y' | date_to_rfc822 }}
+            Sat, 18 Jul 2015 00:00:00 +0000
         </pubDate>
-        <link>{{ video.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ video.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in video.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
+        <link>https://shedpherdproductions.bradykondek.ga/videos/washboarding</link>
+        <guid isPermaLink="true">https://shedpherdproductions.bradykondek.ga/videos/washboarding</guid>
+        
+        <category>Beehavior</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Disneyland Edition</title>
+        <description>&lt;p&gt;Went to VidCon in Anaheim, CA and had a fun time. We also visited Disneyland, because I’m a Disney Freak, and I tried to find as many bee references as I could.&lt;/p&gt;
+
+&lt;p&gt;The YouTube creators shown in this video:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/scishow&quot;&gt;Michael Aranda&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/BallingersPresent&quot;&gt;Chris&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://www.youtube.com/user/jbtvs&quot;&gt;Jessica&lt;/a&gt; Ballinger&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/geekandsundry&quot;&gt;Felicia Day&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/ConvosWith2YrOld&quot;&gt;Convos With My 2-Year-Old (Matt, Leila, Coco &amp;amp; Shephard)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;V Sauce (&lt;a href=&quot;https://www.youtube.com/user/Vsauce&quot;&gt;Michael Stevens&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/user/Vsauce2&quot;&gt;Kevin Lieber&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/user/Vsauce3&quot;&gt;Jake Roper&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>
+            Sat, 25 Jul 2015 00:00:00 +0000
+        </pubDate>
+        <link>https://shedpherdproductions.bradykondek.ga/videos/disneyland-edition</link>
+        <guid isPermaLink="true">https://shedpherdproductions.bradykondek.ga/videos/disneyland-edition</guid>
+        
+        <category>VidCon</category>
+        
+        <category>Disney</category>
+        
+      </item>
+    
+      <item>
+        <title>Honey Extraction</title>
+        <description>&lt;p&gt;One of the criticisms and downsides of not using foundation is the difficulty in extracting the honey without destroying the comb. I decided to see how well my comb holds up in a radial extractor. Will it explode?&lt;/p&gt;
+
+&lt;p&gt;I was also interviewed on the Kiwimana Buzz show. I had a great time talking about beekeeping in Portland and how I create my videos. &lt;a href=&quot;http://kiwimana.co.nz/filming-the-bees-with-bill-catherall-from-the-beevlog-km075/&quot;&gt;You can listen to the show here&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=CH7uVo42vVk&quot;&gt;More on crush &amp;amp; strain harvesting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ahQzTLqIAoA&quot;&gt;The t-shirt: “We are all batpeople”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>
+            Thu, 20 Aug 2015 00:00:00 +0000
+        </pubDate>
+        <link>https://shedpherdproductions.bradykondek.ga/videos/honey-extraction</link>
+        <guid isPermaLink="true">https://shedpherdproductions.bradykondek.ga/videos/honey-extraction</guid>
+        
+        <category>Honey</category>
+        
+        <category>Comb</category>
+        
+        <category>Interview</category>
+        
+      </item>
+    
   </channel>
 </rss>
